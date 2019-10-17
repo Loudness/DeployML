@@ -11,7 +11,7 @@ The created models are deployed on Gemfury (with versions and requirements) to b
 
 ## Stack used:
 
-* **AWS ECR** (Perhaps replace with Kubernetes, time will tell) 
+* **AWS ECR and ECS** (Perhaps replace with Kubernetes, time will tell) 
 * **Docker** Packaging for deployment
 * **Github** Code Repository
 * **Pyhon Notebooks** For experimentation before conversion to pipeline
@@ -29,11 +29,14 @@ The created models are deployed on Gemfury (with versions and requirements) to b
 1. Data Analysis
 2. Feature Engineering
 3. Feature Selection
-4. Building The Machine learning models
-5. Configuration for Docker
-6. Setup and Configuration of Circle CI (CD)
-7. Convert iPython notebooks to a deployable and updatable pipeline
-8. Connect JSON API to model for production use. 
+4. Build and Experiment with the Machine learning models 
+5. Convert iPython notebooks to a deployable and updatable pipeline
+6. Configuration for Docker
+7. Setup AWS Cluster with Amazon Elastic Container Registry (ECR) and
+   Amazon Elastic Container Service (ECS)
+8. Setup and Configuration of Circle CI (CD)
+9. Connect JSON API to model for production use.
+ 
 
 Rinse and repeat only steps 2,3 and 4 for future versions of ML models.
 
