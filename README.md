@@ -17,7 +17,7 @@ The modeling part has a lot more internal steps than shown, but here we a concen
 
 ## Steps for the project are:
 
-![Deployment Flow]("pics/DeploymentFlow.png" "Deployment Flow")
+![Deployment Flow](pics/DeploymentFlow.png "Deployment Flow")
  
  
 
