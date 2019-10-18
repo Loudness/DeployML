@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
 from regression_model.predict import make_prediction
 from regression_model import __version__ as _version
-from neural_network_model.predict import make_single_prediction
+# from neural_network_model.predict import make_single_prediction
 import os
 from werkzeug.utils import secure_filename
 
@@ -52,7 +52,7 @@ def predict():
                         'version': version,
                         'errors': errors})
 
-
+"""
 @prediction_app.route('/predict/classifier', methods=['POST'])
 def predict_image():
     if request.method == 'POST':
@@ -87,3 +87,4 @@ def predict_image():
         return jsonify(
             {'readable_predictions': readable_predictions[0],
              'version': version})
+"""
